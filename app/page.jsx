@@ -2,12 +2,10 @@
 
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
-import ResultPreview from "./components/ResultPreview";
-import WhyItExists from "./components/WhyItExists";
-import HowItWorks from "./components/HowItWorks";
 import Footer from "./components/Footer";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
+import UpdatedSections from "./components/WhyItExists";
 
 export default function Home() {
     return (
@@ -15,13 +13,8 @@ export default function Home() {
             <Navbar />
             <HeroSection />
 
-            <WhyItExists />
+         <UpdatedSections/>
 
-            <ResultPreview />
-
-            <HowItWorks />
-
-            {/* Repeating CTA Section */}
             <section className="py-24 relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-purple-900/20 pointer-events-none" />
                 <div className="container mx-auto px-4 relative z-10 text-center">

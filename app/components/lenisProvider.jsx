@@ -1,6 +1,6 @@
 "use client";
 import { useEffect } from "react";
-import useLenis from "@/lib/useLenis";
+import useLenis from "../lenis";
 
 function useScript(src) {
     useEffect(() => {
