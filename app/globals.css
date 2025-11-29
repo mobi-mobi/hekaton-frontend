@@ -42,3 +42,14 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.custom-placeholder::placeholder {
+  font-size: 1.125rem; /* 18px */
+}
+
+@media (max-width: 600px) {
+  .custom-placeholder::placeholder {
+    font-size: 13.0px; /* 14px */
+  }
+}
+

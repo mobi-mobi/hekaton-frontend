@@ -33,9 +33,9 @@ export default function Footer() {
   ];
 
   const navLinks = [
-    { label: "Profession Library", href: "#" },
-    { label: "About", href: "#" },
-    { label: "Contact", href: "#" },
+    { label: "Introduction", href: "/" },
+    { label: "About", href: "#about" },
+    { label: "How It Works", href: "#how" },
   ];
 
   return (
@@ -83,13 +83,13 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <Sparkles className="w-6 h-6 text-blue-400" />
               <div className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-white to-white/60">
-                JobAi
+                Unreplaceable.ai
               </div>
             </div>
             <p className="text-zinc-400 text-sm leading-relaxed max-w-xs">
               Navigating the AI revolution, one profession at a time. Your
               career compass for the future of work.
-            </p>      
+            </p>
           </motion.div>
 
           {/* Navigation Links */}
@@ -172,8 +172,8 @@ export default function Footer() {
         >
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-zinc-500">
             <p>
-              &copy; {new Date().getFullYear()} JobAi. Built with{" "}
-              <span className="text-purple-400">AI</span> for the future.
+              &copy; {new Date().getFullYear()} Unreplaceable.ai. Built with{" "}
+              <span className="text-purple-400">AIove</span> for the future.
             </p>
             <div className="flex gap-6 text-xs">
               <a href="#" className="hover:text-white transition-colors">
